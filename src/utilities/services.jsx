@@ -1,5 +1,5 @@
 import axios from 'axios'
-const baseUrl = `http://rskseo.pythonanywhere.com`
+const baseUrl = `https://rskseo.pythonanywhere.com`
 
 let token = null
 
@@ -13,7 +13,7 @@ const login = async (credentials) => {
 }
 
 const getAll = async () => {
-  const response = await axios.get(`${baseUrl}/base/services/`)
+  const response = await axios.get(`${baseUrl}/branch/services/1`)
   return response.data
 }
 

@@ -1,0 +1,1 @@
+This is a part of a group project, a part of internship program hosted by RSK Bank. We won the first place in this program. This particular repo contains code for a queue terminal that stand in bank branches, so that people can use them to get a queue ticket with their position in the queue and other information. 
